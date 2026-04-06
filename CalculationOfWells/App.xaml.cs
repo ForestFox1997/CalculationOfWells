@@ -18,7 +18,7 @@ namespace CalculationOfWells
         {
             var services = new ServiceCollection();
             services.AddSingleton<ICsvReader, CsvReader>();
-            services.AddSingleton<IImportService, ImportService>();
+            services.AddSingleton<IWellImportService, WellImportService>();
             services.AddSingleton<IFileDialogService, FileDialogService>();
             services.AddSingleton<IValidationService, ValidationService>();
             services.AddSingleton<IAggregationService, AggregationService>();

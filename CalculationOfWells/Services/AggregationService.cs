@@ -1,4 +1,5 @@
-﻿using CalculationOfWells.Models;
+﻿using CalculationOfWells.Models.Domain;
+using CalculationOfWells.Models.DTO;
 using CalculationOfWells.Services.Interfaces;
 
 namespace CalculationOfWells.Services

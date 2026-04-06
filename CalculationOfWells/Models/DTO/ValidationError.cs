@@ -1,4 +1,4 @@
-﻿namespace CalculationOfWells.Models
+﻿namespace CalculationOfWells.Models.DTO
 {
     /// <summary>
     /// Сведения и валидации значения параметров скважины

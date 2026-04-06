@@ -1,15 +1,15 @@
 ﻿using System.IO;
 using CsvHelper;
-using CalculationOfWells.Models;
 using CalculationOfWells.Services.Interfaces;
 using static CalculationOfWells.Configuration.CsvReaderConfig;
+using CalculationOfWells.Models.DTO;
 
 namespace CalculationOfWells.Services
 {
-    public class ImportService : IImportService
+    public class WellImportService : IWellImportService
     {
         public async Task<ICollection<(int Line, ParsedRow? Row, string? ParseError)>> ReadAllAsync(
-            string path, CancellationToken ct = default)
+            string path, CancellationToken token = default)
         {
             var result = new List<(int, ParsedRow?, string?)>();
             await using var fileStream = File.OpenRead(path);

@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 using CsvHelper.Configuration;
-using CalculationOfWells.Models;
+using CalculationOfWells.Models.DTO;
 
 namespace CalculationOfWells.Configuration
 {

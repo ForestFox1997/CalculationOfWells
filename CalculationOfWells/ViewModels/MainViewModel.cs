@@ -1,20 +1,20 @@
 ﻿using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using CalculationOfWells.Models;
 using CalculationOfWells.Services.Interfaces;
+using CalculationOfWells.Models.DTO;
 
 namespace CalculationOfWells.ViewModels
 {
     public partial class MainViewModel : ObservableObject
     {
-        private readonly IImportService _importService;
+        private readonly IWellImportService _importService;
         private readonly IFileDialogService _fileDialog;
         private readonly IValidationService _validation;
         private readonly IAggregationService _aggregation;
         [ObservableProperty] private bool _isBusy;
 
-        public MainViewModel(IImportService importService, IFileDialogService fileDialogService,
+        public MainViewModel(IWellImportService importService, IFileDialogService fileDialogService,
             IValidationService validationService, IAggregationService aggregationService)
         {
             _importService = importService;

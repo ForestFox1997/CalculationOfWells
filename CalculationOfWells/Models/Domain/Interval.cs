@@ -1,4 +1,4 @@
-﻿namespace CalculationOfWells.Models
+﻿namespace CalculationOfWells.Models.Domain
 {
     /// <summary>
     /// Интервал (параметры) скважины
