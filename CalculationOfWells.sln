@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37111.16 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationOfWells", "CalculationOfWells\CalculationOfWells.csproj", "{CC6E867E-615F-4EE3-8A4F-38EFB1BBA081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationOfWellsTests", "CalculationOfWellsTests\CalculationOfWellsTests.csproj", "{AE74B6A0-1524-4D0A-BC52-C655B596EE13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC6E867E-615F-4EE3-8A4F-38EFB1BBA081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6E867E-615F-4EE3-8A4F-38EFB1BBA081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6E867E-615F-4EE3-8A4F-38EFB1BBA081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE74B6A0-1524-4D0A-BC52-C655B596EE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE74B6A0-1524-4D0A-BC52-C655B596EE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE74B6A0-1524-4D0A-BC52-C655B596EE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE74B6A0-1524-4D0A-BC52-C655B596EE13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
