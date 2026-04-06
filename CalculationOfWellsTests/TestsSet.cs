@@ -1,3 +1,4 @@
+using CalculationOfWells.Models.Domain;
 using CalculationOfWells.Models.DTO;
 using CalculationOfWells.Services;
 
