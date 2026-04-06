@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using CalculationOfWells.ViewModels;
 
 namespace CalculationOfWells.Views
 {
@@ -11,7 +10,6 @@ namespace CalculationOfWells.Views
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new TestViewModel();
         }
     }
 }
